@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82c6ff95-09f0-4100-9718-4fca74f523cf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AddBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BinaryTreePaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EqualSumPartitions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HexadecimalRepresentation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IntersectionOfTwoArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MaximumSizeSubarraySumEqualsk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MergeTwoSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NthLargestValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NumberOfIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PlusOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RemoveDuplicatesFromSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValidNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValidPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValidPalindromeII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FlattenBinaryTreeToLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,19 +20,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="143">
               <caret line="33" column="12" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NthLargestValue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NthLargestValue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-              <folding>
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -123,14 +93,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaximumSizeSubarraySumEqualsk.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaximumSizeSubarraySumEqualsk.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MaximumSizeSubarraySumEqualsk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="47" column="22" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="47" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FlattenBinaryTreeToLinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FlattenBinaryTreeToLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -155,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MissingRanges.java" />
         <option value="$PROJECT_DIR$/src/MergeStones.java" />
         <option value="$PROJECT_DIR$/src/OneEditDistance.java" />
         <option value="$PROJECT_DIR$/src/ReverseBinaryTreeUpsideDown.java" />
@@ -206,13 +184,14 @@
         <option value="$PROJECT_DIR$/src/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/RemoveNthNodeFromEndOfList.java" />
         <option value="$PROJECT_DIR$/src/MaximumSizeSubarraySumEqualsk.java" />
+        <option value="$PROJECT_DIR$/src/FlattenBinaryTreeToLinkedList.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1100" />
+    <option name="x" value="678" />
     <option name="y" value="-977" />
-    <option name="width" value="1171" />
+    <option name="width" value="1324" />
     <option name="height" value="977" />
   </component>
   <component name="ProjectView">
@@ -242,6 +221,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="terminal&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -377,7 +357,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1100" y="-977" width="1171" height="977" extended-state="0" />
+    <frame x="678" y="-977" width="1324" height="977" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -386,14 +366,14 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50080645" side_tool="true" weight="0.4659091" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50080645" side_tool="true" weight="0.4651163" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27698863" />
-      <window_info anchor="bottom" id="Version Control" order="9" visible="true" weight="0.25692138" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.25692138" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32890365" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25619128" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2265861" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -539,13 +519,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MissingRanges.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MergeStones.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -972,11 +945,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MaximumSizeSubarraySumEqualsk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="47" column="22" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="47" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FlattenBinaryTreeToLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
         </state>
       </provider>
     </entry>
