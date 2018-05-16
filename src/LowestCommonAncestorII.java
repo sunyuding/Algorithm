@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Given two nodes in a binary tree (with parent pointer available),
  * find their lowest common ancestor.
@@ -31,19 +34,23 @@
  * Linked List
  */
 
-class TreeNodeP {
-    public int key;
-    public TreeNodeP left;
-    public TreeNodeP right;
-    public TreeNodeP parent;
-    public TreeNodeP(int key, TreeNodeP parent) {
-      this.key = key;
-      this.parent = parent;
-    }
-  }
+
 
 public class LowestCommonAncestorII {
     public TreeNodeP lowestCommonAncestor(TreeNodeP one, TreeNodeP two) {
+        TreeNodeP n1 = one;
+        TreeNodeP n2 = two;
+        Set<TreeNodeP> set = new HashSet<>();
+        while(n1 != null) {
+            set.add(n1);
+            n1 = n1.parent;
+        }
+        while(n2 != null) {
+            if (set.contains(n2)) {
+                return n2;
+            }
+            n2 = n2.parent;
+        }
         return null;
     }
 }
