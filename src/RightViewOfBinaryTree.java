@@ -1,4 +1,7 @@
+import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 /**
  * Given a Binary Tree,
@@ -26,6 +29,27 @@ import java.util.List;
  */
 public class RightViewOfBinaryTree {
     public List<Integer> rightView(TreeNode root) {
-        return null;
+        List<Integer> result = new ArrayList<>();
+        if (root == null) {
+            return result;
+        }
+        Queue<TreeNode> q = new LinkedList<>();
+        q.offer(root);
+        while(!q.isEmpty()) {
+            int size = q.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode cur = q.poll();
+                if (i == size - 1) {
+                    result.add(cur.key);
+                }
+                if (cur.left != null) {
+                    q.offer(cur.left);
+                }
+                if (cur.right != null) {
+                    q.offer(cur.right);
+                }
+            }
+        }
+        return result;
     }
 }
