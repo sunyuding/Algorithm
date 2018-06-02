@@ -17,7 +17,7 @@ public class RotatedSortedArraySearchTarget {
             } else {
                 // potential min is on right side without mid
                 // left side is monotonically increasing
-                if (nums[left <= target && target < nums[mid]) {
+                if (nums[left] <= target && target < nums[mid]) {
                     right = mid - 1;
                 } else {
                     left = mid + 1;
