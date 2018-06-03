@@ -25,39 +25,49 @@ import java.util.*;
  * ]
  */
 public class FourSum {
-        public List<List<Integer>> fourSum(int[] nums, int target) {
-            List<List<Integer>> res = new ArrayList<List<Integer>>();
-            if (nums == null || nums.length == 0) return res;
-            Arrays.sort(nums);
-            helper(nums, target, res, new ArrayList<Integer>(), 0, 0);
-            return res;
-        }
-        private void helper(int[] nums, int target, List<List<Integer>> res, List<Integer> temp, int index, int currSum) {
-            if (temp.size() == 4 && currSum == target) {
-                res.add(new ArrayList<>(temp));
-                return;
-            }
-            Set<Integer> set = new HashSet<>();
-            for (int i = index; i < nums.length; i++) {
-                if (set.add(nums[i])) {
-                    // Choose the current element
-                    currSum += nums[i];
-                    temp.add(nums[i]);
-                    helper(nums, target, res, temp, i + 1, currSum);
-                    temp.remove(temp.size() - 1);
-                    currSum -= nums[i];
-
-                    // Not choose the current element
-                    helper(nums, target, res, temp, i + 1, currSum);
+    public List<List<Integer>> fourSum(int[] nums, int target) {
+        // a + b + c + d = target
+        List<List<Integer>> res = new ArrayList<>();
+        if (nums == null || nums.length == 0) return res;
+        Arrays.sort(nums);
+        for(int i = 0; i < nums.length - 3; i++) {
+            // get a
+            // de-duplicate
+            if (i == 0 || nums[i] != nums[i - 1]){
+                // three sum for target - nums[i]
+                for (int j = i + 1; j < nums.length - 2; j++) {
+                    if (j == i + 1 || nums[j] != nums[j - 1]) {
+                        // 2 sum for target - sums[i] - sums[j]
+                        int lo = j + 1;
+                        int hi = nums.length - 1;
+                        while(lo < hi) {
+                            if (nums[lo] + nums[hi] == target - nums[i] - nums[j]) {
+                                // find it
+                                res.add(Arrays.asList(nums[i], nums[j], nums[lo], nums[hi]));
+                                while(lo < hi && nums[lo] == nums[lo + 1]) {
+                                    lo++;
+                                }
+                                while(lo < hi && nums[hi] == nums[hi - 1]) {
+                                    hi--;
+                                }
+                                lo++;
+                                hi--;
+                            } else if (nums[lo] + nums[hi] < target - nums[i] - nums[j]) {
+                                lo++;
+                            } else {
+                                hi--;
+                            }
+                        }
+                    }
                 }
             }
         }
+        return res;
+    }
 
-
-        public static void main(String[] args) {
+    public static void main(String[] args) {
         FourSum ins = new FourSum();
-        int[] nums = new int[] {1, 0, -1, 0, -2, 2};
-        int target = 0;
-        ins.fourSum(nums, target);
+        int[] nums = new int[]{1,0,-1,0,-2,2};
+        ins.fourSum(nums, 0);
     }
 }
