@@ -19,13 +19,6 @@ public class TrappingRainWater {
         if (height == null || height.length == 0) {
             return res;
         }
-        // from current element to left and to right
-        // find the highest index left side and right side
-
-        //  0 1 2 3 4 5 6 7 8 9 0 1
-        // [0,1,0,2,1,0,1,3,2,1,2,1]
-        // to left
-        // [0,0,1,1,2,2,2,2,3,3,3,3]
 
         int[] toLeft = new int[height.length];
         toLeft[0] = 0;
@@ -36,10 +29,7 @@ public class TrappingRainWater {
                 toLeft[i] = toLeft[i - 1];
             }
         }
-        //  0 1 2 3 4 5 6 7 8 9 0 1
-        // [0,1,0,2,1,0,1,3,2,1,2,1]
-        // to right
-        // [3,3,3,3,3,3,3,2,2,2,1,0]
+
         int[] toRight = new int[height.length];
         toRight[toLeft.length - 1] = 0;
         for (int i = height.length - 2; i >= 0; i--) {
