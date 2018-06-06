@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e41e542b-6596-457c-9a32-ae1e20e0f14f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RangeSumQueryImmutable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TrappingRainWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TrappingRainWater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/FourSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/FourSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/FourSumII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/FourSumII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/GraphValidTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/IncreasingAndDecreasingSearchTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/IncreasingAndDecreasingSearchTarget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/MedianOfTwoSortedArrays.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/MedianOfTwoSortedArrays.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/PeekingIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/RotatedSortedArrayMinPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/RotatedSortedArrayMinPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/RotatedSortedArraySearchTarget.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/RotatedSortedArraySearchTarget.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/RotatedSortedArrayWithDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/RotatedSortedArrayWithDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/TrappingRainWater.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithm/TrappingRainWater.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithm/Vector2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HIndex.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +32,7 @@
       <file leaf-file-name="MedianOfTwoSortedArrays.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MedianOfTwoSortedArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="330">
               <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
               <folding>
                 <element signature="e#548#549#0" expanded="true" />
@@ -35,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/TrappingRainWater.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -43,8 +54,8 @@
       <file leaf-file-name="RangeSumQueryImmutable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/RangeSumQueryImmutable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+            <state relative-caret-position="600">
+              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -52,8 +63,8 @@
       <file leaf-file-name="HIndex.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="76" column="9" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="76" selection-end-column="9" />
+            <state relative-caret-position="390">
+              <caret line="108" column="22" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="108" selection-end-column="22" />
               <folding>
                 <element signature="e#1140#1141#0" expanded="true" />
                 <element signature="e#1164#1165#0" expanded="true" />
@@ -83,10 +94,16 @@
       </list>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="452" />
+    <option name="x" value="493" />
     <option name="y" value="22" />
-    <option name="width" value="828" />
+    <option name="width" value="787" />
     <option name="height" value="778" />
   </component>
   <component name="ProjectView">
@@ -94,9 +111,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,6 +129,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="RunDashboard">
@@ -128,6 +145,11 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration name="HIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HIndex" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -169,13 +191,18 @@
       <properties />
       <listeners />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HIndex" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="82c6ff95-09f0-4100-9718-4fca74f523cf" name="Default" comment="" />
+      <changelist id="e41e542b-6596-457c-9a32-ae1e20e0f14f" name="Default" comment="" />
       <created>1524256054673</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -205,7 +232,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="241" y="22" width="1039" height="778" extended-state="0" />
+    <frame x="493" y="22" width="787" height="778" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -214,14 +241,14 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.501292" side_tool="true" weight="0.39060205" />
-      <window_info anchor="right" id="Maven Projects" order="6" weight="0.3292683" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32867134" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.2760646" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.25692138" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.61154175" visible="true" weight="0.39207047" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.61154175" weight="0.39207047" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8115942" visible="true" weight="0.19759278" />
-      <window_info id="Structure" order="1" sideWeight="0.1884058" side_tool="true" visible="true" weight="0.19759278" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.80763584" visible="true" weight="0.2738255" />
+      <window_info id="Structure" order="1" sideWeight="0.19236417" side_tool="true" visible="true" weight="0.2738255" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -230,11 +257,11 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32945207" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919355" weight="0.24375919" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919355" weight="0.24375919" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -242,12 +269,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.27698863" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2265625" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.25692138" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -257,7 +284,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.390625" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50080645" side_tool="true" weight="0.4651163" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.25692138" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919355" weight="0.24431819" />
@@ -267,6 +294,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/HIndex.java</url>
+          <line>133</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/TreeNodeP.java">
@@ -528,11 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="52" column="7" lean-forward="true" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1986#1987#0" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -554,11 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1600#1601#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,7 +645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MedianOfTwoSortedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="330">
           <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
           <folding>
             <element signature="e#548#549#0" expanded="true" />
@@ -628,21 +657,21 @@
     <entry file="file://$PROJECT_DIR$/src/TrappingRainWater.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/RangeSumQueryImmutable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        <state relative-caret-position="600">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HIndex.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="76" column="9" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="76" selection-end-column="9" />
+        <state relative-caret-position="390">
+          <caret line="108" column="22" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="108" selection-end-column="22" />
           <folding>
             <element signature="e#1140#1141#0" expanded="true" />
             <element signature="e#1164#1165#0" expanded="true" />

@@ -58,11 +58,7 @@ public class HIndex {
             return 0;
         }
         Arrays.sort(citations);
-        //[3,0,6,1,5]
-        //[0,1,3,5,6]
-        // 5 4 3 2 1
-        // run binary search to find the largest i that
-        // length - i >= citations(i)
+
         int lo = 0, hi = citations.length - 1;
         while(lo < hi) {
             int mid = lo + (hi - lo) / 2;
@@ -90,6 +86,51 @@ public class HIndex {
      * @return the index of x
      */
     private int quickSelect(int[] citations) {
-        return 0;
+        if (citations == null || citations.length == 0) {
+            return 0;
+        }
+        int left = 0, right = citations.length - 1;
+        int result = -1;
+        while(left <= right) {
+            int pivot = partition(citations, left, right);
+            if (citations[pivot] > citations.length - pivot) {
+                right = pivot - 1;
+            } else {
+                result = citations[pivot];
+                left = pivot + 1;
+            }
+        }
+        if (right == -1) {
+            return 1;
+        }
+        if (left == citations.length) {
+            return 0;
+        }
+        return result;
+    }
+
+    private int partition(int[] citations, int left, int right) {
+        int x = citations[right], pivot = left;
+        // x is target, right side of pivot is >= x
+        for (int i = left; i < right; i++) {
+            if (citations[i] < x) {
+                swap(citations, i, pivot);
+                pivot++;
+            }
+        }
+        swap(citations, pivot, right);
+        return pivot;
+    }
+
+    private void swap(int[] citations, int left, int right) {
+        int tmp = citations[left];
+        citations[left] = citations[right];
+        citations[right] = tmp;
+    }
+
+    public static void main(String[]  args) {
+        HIndex ins = new HIndex();
+        int[] input = new int[] {3,0,6,1,5};
+        ins.quickSelect(input);
     }
 }
