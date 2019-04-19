@@ -2,97 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e41e542b-6596-457c-9a32-ae1e20e0f14f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Animal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/BaseballGame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Beetle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Binbin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Bird.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/BlackRhino.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/C.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/CanClimb.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/CanHop.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/CanSwim.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/CheckingAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Chicken.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/ChickenSong.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Chimp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Cougar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Counts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Deer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/DoSomething.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Downloadable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Duck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/EBook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Egret.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Exportable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/GroupAnagrams.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/HasClaws.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/HasExoskeleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/HasHindLegs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/HasTail.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/HenHouse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Herbivore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Insect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/InvalidParenthese.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Koala.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/LCP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/LargestRectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Letters.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/LongestSubarrayAtMostTwoTypes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/MantaRay.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/NumberOfIslandsTwo/Solution$UnionFind.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/NumberOfIslandsTwo/Solution.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/OCA.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Order.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/OrderDriver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Palindrome.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Panda.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Puma.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Rabbit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Readable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Reindeer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/ReportTool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Rhinoceros.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Runnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/SplitArrayWithEqualSum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Supper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/TaskScheduler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Tool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Topological.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Toy$Otter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Toy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/Type.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/ValidTicTacToeState.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/WaterFowl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/WordLadder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/WordSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/animal/Frog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/aquarium/Shark.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/aquarium/Water.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/bird/Cardinal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/clothing/Shirt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/clothing/pants/Jeans.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/other/Tadpole.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/p1/Acc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/p2/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/rope/Rope.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Algorithm/test/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BaseballGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LargestRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/MergeKSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/MergeTwoSortedLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OCA.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Rope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Two_Sum/Two_Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ValidTicTacToeState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WordLadder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/PartitionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/RemoveDuplicatesFromSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/RemoveDuplicatesFromSortedListII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/ReverseLinkedListII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/ReverseNodesInKGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/RotateList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linked_List/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linked_List/MergeKSortedLists.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -109,103 +29,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OCA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/OCA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Two_Sum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Two_Sum/Two_Sum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddTwoNumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Linked_List/AddTwoNumbers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RemoveNthNodeFromEndOfList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Linked_List/RemoveNthNodeFromEndOfList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="19" selection-start-line="19" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeTwoSortedLists.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Linked_List/MergeTwoSortedLists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MergeKSortedLists.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MergeKSortedLists.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Linked_List/MergeKSortedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            <state relative-caret-position="181">
+              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+              <folding>
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/test.java">
+      <file leaf-file-name="ReverseNodesInKGroup.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Linked_List/ReverseNodesInKGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state relative-caret-position="176">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlackRhino.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BlackRhino.java">
+      <file leaf-file-name="RotateList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Linked_List/RotateList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="65" column="43" lean-forward="true" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveDuplicatesFromSortedListII.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Linked_List/RemoveDuplicatesFromSortedListII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="35" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoveDuplicatesFromSortedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Linked_List/RemoveDuplicatesFromSortedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PartitionList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Linked_List/PartitionList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseLinkedListII.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Linked_List/ReverseLinkedListII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConvertSortedListToBinarySearchTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
               <folding>
-                <element signature="e#304#305#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Duck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Duck.java">
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Linked_List/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="45">
+              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Letters.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Letters.java">
+      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Linked_List/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#75#76#0" expanded="true" />
-                <element signature="e#116#117#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -226,15 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/aquarium/Shark.java" />
-        <option value="$PROJECT_DIR$/src/Panda.java" />
-        <option value="$PROJECT_DIR$/src/DoSomething.java" />
-        <option value="$PROJECT_DIR$/src/Runnable.java" />
-        <option value="$PROJECT_DIR$/src/Egret.java" />
-        <option value="$PROJECT_DIR$/src/ChickenSong.java" />
-        <option value="$PROJECT_DIR$/src/HasTail.java" />
-        <option value="$PROJECT_DIR$/src/Supper.java" />
-        <option value="$PROJECT_DIR$/src/Herbivore.java" />
         <option value="$PROJECT_DIR$/src/Counts.java" />
         <option value="$PROJECT_DIR$/src/Toy.java" />
         <option value="$PROJECT_DIR$/src/Rope.java" />
@@ -277,6 +185,15 @@
         <option value="$PROJECT_DIR$/src/Linked_List/MergeTwoSortedLists.java" />
         <option value="$PROJECT_DIR$/src/Linked_List/AddTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/Linked_List/MergeKSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/Linked_List/ReverseNodesInKGroup.java" />
+        <option value="$PROJECT_DIR$/src/Linked_List/ListNode.java" />
+        <option value="$PROJECT_DIR$/src/Linked_List/RotateList.java" />
+        <option value="$PROJECT_DIR$/src/Linked_List/RemoveDuplicatesFromSortedListII.java" />
+        <option value="$PROJECT_DIR$/src/Linked_List/RemoveDuplicatesFromSortedList.java" />
+        <option value="$PROJECT_DIR$/src/Linked_List/PartitionList.java" />
+        <option value="$PROJECT_DIR$/src/Linked_List/ReverseLinkedListII.java" />
+        <option value="$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/Linked_List/TreeNode.java" />
       </list>
     </option>
   </component>
@@ -288,7 +205,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1115" />
+    <option name="width" value="1183" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectView">
@@ -347,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OCA">
+  <component name="RunManager" selected="Application.RotateList">
     <configuration name="BlackRhino" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BlackRhino" />
       <module name="Algorithm" />
@@ -358,15 +275,21 @@
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="Letters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Letters" />
-      <module name="Algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
     <configuration name="OCA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OCA" />
       <module name="Algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="RotateList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Linked_List.RotateList" />
+      <module name="Algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Linked_List.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NumberOfIslandsTwo.Solution" />
@@ -422,18 +345,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.OCA" />
-      <item itemvalue="Application.Letters" />
       <item itemvalue="Application.Duck" />
       <item itemvalue="Application.BlackRhino" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.RotateList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RotateList" />
         <item itemvalue="Application.OCA" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.BlackRhino" />
         <item itemvalue="Application.Duck" />
-        <item itemvalue="Application.Letters" />
       </list>
     </recent_temporary>
   </component>
@@ -472,11 +395,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1115" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1183" height="777" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32892805" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919355" weight="0.33789954" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -484,15 +408,15 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32867134" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33789954" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.2541857" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.61154175" visible="true" weight="0.4672755" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.61154175" weight="0.41856927" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7378641" visible="true" weight="0.28145388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7378641" visible="true" weight="0.26468012" />
       <window_info id="Structure" order="1" sideWeight="0.26213592" side_tool="true" weight="0.24457034" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4982238" weight="0.25416204" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4982238" visible="true" weight="0.3105023" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32799247" />
@@ -501,7 +425,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32775453" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49919355" weight="0.33789954" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
@@ -661,6 +584,12 @@
           <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/InvalidParenthese.java</url>
           <line>4</line>
@@ -676,72 +605,10 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="69" />
+      <option name="time" value="73" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Counts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Panda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Egret.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OCA.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ChickenSong.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Rope.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chimp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/OrderDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -924,13 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Linked_List/MergeTwoSortedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Linked_List/RemoveNthNodeFromEndOfList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -945,10 +805,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linked_List/MergeTwoSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Linked_List/MergeKSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        <state relative-caret-position="181">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linked_List/ReverseNodesInKGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linked_List/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linked_List/RotateList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="65" column="43" lean-forward="true" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linked_List/RemoveDuplicatesFromSortedListII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="35" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linked_List/RemoveDuplicatesFromSortedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linked_List/PartitionList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linked_List/ReverseLinkedListII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding>
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linked_List/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
         </state>
       </provider>
     </entry>
