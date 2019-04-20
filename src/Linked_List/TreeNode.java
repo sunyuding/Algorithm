@@ -3,7 +3,7 @@ package Linked_List;
 public class TreeNode {
     int val;
     TreeNode left;
-    TreeNode rigth;
+    TreeNode right;
     TreeNode(int x) {
         val = x;
     }

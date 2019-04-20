@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e41e542b-6596-457c-9a32-ae1e20e0f14f" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/PartitionList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/RemoveDuplicatesFromSortedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/RemoveDuplicatesFromSortedListII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/ReverseLinkedListII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/ReverseNodesInKGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/RotateList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Linked_List/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Linked_List/CopyListWithRandomPointer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Linked_List/MergeKSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linked_List/MergeKSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Linked_List/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linked_List/TreeNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,19 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MergeKSortedLists.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Linked_List/MergeKSortedLists.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-              <folding>
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReverseNodesInKGroup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Linked_List/ReverseNodesInKGroup.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,21 +79,33 @@
       <file leaf-file-name="ConvertSortedListToBinarySearchTree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="114">
+              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CopyListWithRandomPointer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Linked_List/CopyListWithRandomPointer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="55" column="23" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="55" selection-end-column="23" />
               <folding>
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TreeNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Linked_List/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+            <state relative-caret-position="120">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="e#118#119#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Counts.java" />
         <option value="$PROJECT_DIR$/src/Toy.java" />
         <option value="$PROJECT_DIR$/src/Rope.java" />
         <option value="$PROJECT_DIR$/src/rope/Rope.java" />
@@ -192,8 +183,9 @@
         <option value="$PROJECT_DIR$/src/Linked_List/RemoveDuplicatesFromSortedList.java" />
         <option value="$PROJECT_DIR$/src/Linked_List/PartitionList.java" />
         <option value="$PROJECT_DIR$/src/Linked_List/ReverseLinkedListII.java" />
-        <option value="$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java" />
         <option value="$PROJECT_DIR$/src/Linked_List/TreeNode.java" />
+        <option value="$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/Linked_List/CopyListWithRandomPointer.java" />
       </list>
     </option>
   </component>
@@ -408,7 +400,7 @@
       <window_info anchor="right" id="Maven Projects" order="6" weight="0.32867134" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33789954" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.2541857" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.61154175" weight="0.41856927" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.61154175" visible="true" weight="0.41856927" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7378641" visible="true" weight="0.26468012" />
@@ -416,7 +408,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4982238" visible="true" weight="0.3105023" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4982238" weight="0.3105023" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32799247" />
@@ -584,12 +576,6 @@
           <properties />
           <option name="timeStamp" value="49" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/InvalidParenthese.java</url>
           <line>4</line>
@@ -609,13 +595,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/OrderDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PrayingMantis.java" />
     <entry file="file://$PROJECT_DIR$/src/Beetle.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -872,21 +851,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java">
+    <entry file="file://$PROJECT_DIR$/src/Linked_List/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#118#119#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Linked_List/TreeNode.java">
+    <entry file="file://$PROJECT_DIR$/src/Linked_List/ConvertSortedListToBinarySearchTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="114">
+          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Linked_List/CopyListWithRandomPointer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="55" column="23" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="55" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
