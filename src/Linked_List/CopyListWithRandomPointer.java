@@ -23,7 +23,9 @@ package Linked_List;
 //
 //        You must return the copy of the given head as a reference to the cloned list.
 
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 public class CopyListWithRandomPointer {
@@ -40,19 +42,25 @@ public class CopyListWithRandomPointer {
             random = _random;
         }
     }
-    Set<Node> visited = new HashSet<>();
+
+    Map<Node, Node> dict = new HashMap<>();
+
+    //Recursive
     public Node copyRandomList(Node head) {
         if (head == null) return head;
-        // if it is not copied, copy it
-        Node newHead = new Node();
-        newHead.val = head.val;
-        visited.add(head);
-        if (visited.contains(head.next)) {
-            newHead.next = copyRandomList(head.next);
+        if (dict.containsKey(head)) {
+            return dict.get(head);
         }
-        if (visited.contains(head.random)) {
-            newHead.random = copyRandomList(head.random);
-        }
+        Node newHead = new Node(head.val, null, null);
+        dict.put(head, newHead);
+        newHead.next = copyRandomList(head.next);
+        newHead.random = copyRandomList(head.random);
         return newHead;
+    }
+
+    //Iterative
+    public Node copyRandomList(Node head) {
+        if (head == null) return head;
+
     }
 }
