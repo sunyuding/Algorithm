@@ -57,10 +57,4 @@ public class CopyListWithRandomPointer {
         newHead.random = copyRandomList(head.random);
         return newHead;
     }
-
-    //Iterative
-    public Node copyRandomList(Node head) {
-        if (head == null) return head;
-
-    }
 }
