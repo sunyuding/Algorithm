@@ -37,7 +37,7 @@
  *     4
  *
  * Medium
- * Binary Tree
+ * Binary tree
  */
 public class MaximumPathSumBinaryTreeI {
     public int maxPathSum(TreeNode root) {

@@ -14,7 +14,7 @@
  * {2, 3, 2, 1, 4, 5, 2, 11}, K = 3, the maximum profit you can make is (3 - 2) + (5 - 1) + (11 - 2)= 14
  *
  * Hard
- * Array
+ * array
  */
 
 import java.util.Arrays;

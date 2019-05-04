@@ -12,7 +12,7 @@ import java.util.Arrays;
  * [-2, 0, 1]
  * [-2, 0, 3]
  * Easy
- * Array
+ * array
  * Two Pointers
  */
 public class ThreeSumSmaller {

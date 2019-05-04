@@ -36,7 +36,7 @@
  *           40
  *
  * Medium
- * Binary Search Tree
+ * Binary Search tree
  */
 public class TransformBinarySearchTreeToGreaterSumTree {
 //    public TreeNode greaterSum(TreeNode root) {

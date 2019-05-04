@@ -13,7 +13,7 @@ import java.util.Arrays;
  * A = {1, 2, 1, 2, 1}, return 1
  *
  * Easy
- * Array
+ * array
  */
 public class MajorityNumberI {
     public int majority(int[] array) {

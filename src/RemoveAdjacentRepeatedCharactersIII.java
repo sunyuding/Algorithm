@@ -15,7 +15,7 @@
 //        If the given string is null,
 // we do not need to do anything.
 //        Medium
-//        Array
+//        array
 //        String
 public class RemoveAdjacentRepeatedCharactersIII {
     public String deDup(String input) {

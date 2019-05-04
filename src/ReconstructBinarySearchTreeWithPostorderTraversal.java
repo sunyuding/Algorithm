@@ -43,7 +43,7 @@ import java.util.Arrays;
  *     4
  *
  * Medium
- * Binary Search Tree
+ * Binary Search tree
  */
 public class ReconstructBinarySearchTreeWithPostorderTraversal {
     public TreeNode reconstruct(int[] post) {

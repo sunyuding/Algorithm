@@ -8,7 +8,7 @@
  *
  *
  * Easy
- * Array
+ * array
  */
 public class MergeTwoSortedArray {
     public int[] merge(int[] A, int m, int[] B, int n) {

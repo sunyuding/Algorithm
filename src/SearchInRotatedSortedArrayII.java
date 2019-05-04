@@ -17,7 +17,7 @@
  * Output: false
  * Follow up:
  *
- * This is a follow up problem to Search in Rotated Sorted Array,
+ * This is a follow up problem to Search in Rotated Sorted array,
  * where nums may contain duplicates.
  * Would this affect the run-time complexity?
  * How and why?

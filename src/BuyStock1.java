@@ -11,7 +11,7 @@
 //        {2, 3, 2, 1, 4, 5}, the maximum profit you can make is 5 - 1 = 4
 //
 //        Easy
-//        Array
+//        array
 public class BuyStock1 {
     public int maxProfit(int[] array) {
         // dp

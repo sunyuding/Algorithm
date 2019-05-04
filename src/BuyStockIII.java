@@ -14,7 +14,7 @@ import java.util.Arrays;
 //
 //        {2, 3, 2, 1, 4, 5, 2, 11}, the maximum profit you can make is (5 - 1) + (11 - 2) = 13
 //        Medium
-//        Array
+//        array
 public class BuyStockIII {
     public int maxProfit(int[] array) {
         int result = oneTransaction(array);

@@ -21,7 +21,7 @@
  * Output:  2 <-> 5 <-> 10 <-> 15
  *
  * Medium
- * Binary Tree
+ * Binary tree
  */
 public class ConvertBinaryTreeToDoublyLinkedListI {
     public TreeNode toDoubleLinkedList(TreeNode root) {

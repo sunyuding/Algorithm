@@ -10,7 +10,7 @@
  *
  * {<1,3>, <2,4>, <5,7>, <6,8> }. The total length returned is 6(<1,4> is covered and <5,8> is covered).
  * Easy
- * Array
+ * array
  * Interval
  */
 

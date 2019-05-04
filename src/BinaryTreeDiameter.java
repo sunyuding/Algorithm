@@ -41,7 +41,7 @@ import java.util.Queue;
  4
 
  Medium
- Binary Tree
+ Binary tree
  */
 public class BinaryTreeDiameter {
     class TreeNode {

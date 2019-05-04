@@ -25,7 +25,7 @@
  *              6
  *
  * Medium
- * Binary Tree
+ * Binary tree
  * Depth First Search
  */
 public class FlattenBinaryTreeToLinkedList {

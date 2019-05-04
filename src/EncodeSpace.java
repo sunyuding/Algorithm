@@ -10,7 +10,7 @@
 //
 //        If the given string is null, we do not need to do anything.
 //        Easy
-//        Array
+//        array
 //        String
 
 public class EncodeSpace {

@@ -43,7 +43,7 @@
  *     4
  *
  * Medium
- * Binary Search Tree
+ * Binary Search tree
  */
 public class ClosestNumberInBinarySearchTreeII {
 

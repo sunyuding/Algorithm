@@ -45,7 +45,7 @@ import java.util.Arrays;
  *     4
  *
  * Medium
- * Binary Tree
+ * Binary tree
  */
 public class ReconstructBinaryTreeWithPreorderAndInorder {
     public TreeNode reconstruct(int[] in, int[] pre) {

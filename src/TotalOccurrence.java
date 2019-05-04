@@ -12,7 +12,7 @@
 //
 // What if A is null? We should return 0 in this case.
 // Medium
-// Array
+// array
 // Binary Search
 
 public class TotalOccurrence {

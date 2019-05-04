@@ -12,7 +12,7 @@
  *
  *
  * Medium
- * Array
+ * array
  * Sort
  */
 

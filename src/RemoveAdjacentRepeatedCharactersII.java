@@ -14,7 +14,7 @@
 //
 //        If the given string is null, we do not need to do anything.
 //        Medium
-//        Array
+//        array
 //        String
 
 import java.util.Arrays;

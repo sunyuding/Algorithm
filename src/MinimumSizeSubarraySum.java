@@ -11,9 +11,9 @@ import java.util.Arrays;
  the subarray [4,3] has the minimal length under the problem constraint.
 
  Medium
- Array
+ array
  Two Pointers
- Binary Tree
+ Binary tree
  */
 public class MinimumSizeSubarraySum {
     public int minSubArrayLen(int s, int[] nums) {

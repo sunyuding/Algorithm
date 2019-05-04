@@ -15,7 +15,7 @@ import java.util.List;
  *
  * ["1->2->5", "1->3"]
  * Easy
- * Binary Tree
+ * Binary tree
  * Depth First Search
  */
 public class BinaryTreePaths {

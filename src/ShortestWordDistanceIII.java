@@ -18,7 +18,7 @@
  * You may assume word1 and word2 are both in the list.
  *
  * Medium
- * Array
+ * array
  */
 public class ShortestWordDistanceIII {
     public int shortestWordDistance(String[] words, String word1, String word2) {

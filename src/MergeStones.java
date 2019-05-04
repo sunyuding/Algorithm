@@ -24,7 +24,7 @@
  * total cost = 7 + 7 + 14 = 28
  *
  * Hard
- * Array
+ * array
  * Dynamic Programming
  */
 public class MergeStones {

@@ -9,7 +9,7 @@
  *
  *
  * Easy
- * Array
+ * array
  */
 public class ClimbingStairs {
     public int stairs(int n) {

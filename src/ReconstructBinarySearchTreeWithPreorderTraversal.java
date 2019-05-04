@@ -45,7 +45,7 @@ import java.util.Arrays;
  *
  *
  * Medium
- * Binary Search Tree
+ * Binary Search tree
  */
 public class ReconstructBinarySearchTreeWithPreorderTraversal {
     public TreeNode reconstruct(int[] pre) {

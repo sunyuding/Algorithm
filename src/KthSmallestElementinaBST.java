@@ -16,7 +16,7 @@ import java.util.Queue;
  * How would you optimize the kthSmallest routine?
  *
  * Medium
- * Binary Search Tree
+ * Binary Search tree
  */
 public class KthSmallestElementinaBST {
     public int kthSmallest(TreeNode root, int k) {

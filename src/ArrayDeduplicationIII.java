@@ -16,7 +16,7 @@ import java.util.Arrays;
  * {1, 2, 2, 3, 3, 3} → {1}
  *
  * Medium
- * Array
+ * array
  */
 public class ArrayDeduplicationIII {
     public int[] dedup(int[] array) {

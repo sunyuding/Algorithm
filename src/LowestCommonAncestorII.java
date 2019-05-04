@@ -30,7 +30,7 @@ import java.util.Set;
  * The lowest common ancestor of 2 and 8 is null (8 is not in the tree)
  *
  * Medium
- * Binary Tree
+ * Binary tree
  * Linked List
  */
 

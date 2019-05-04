@@ -10,7 +10,7 @@
  * {2, 1, 5, 4, 3}, the largest number is 5 and smallest number is 1. return [5, 1].
  *
  * Medium
- * Array
+ * array
  */
 public class LargestAndSmallest {
     public int[] largestAndSmallest(int[] array) {

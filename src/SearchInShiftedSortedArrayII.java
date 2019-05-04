@@ -15,7 +15,7 @@
 //
 //What if A is null or A is of zero length? We should return -1 in this case.
 //Hard
-//Array
+//array
 //Binary Search
 
 public class SearchInShiftedSortedArrayII {

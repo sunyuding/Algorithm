@@ -14,7 +14,7 @@ import java.util.Comparator;
  *
  * The given array of intervals is not null and has length of > 0
  * Medium
- * Array
+ * array
  */
 
 class IntervalW {

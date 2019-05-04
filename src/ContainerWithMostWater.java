@@ -8,7 +8,7 @@
  * Note: You may not slant the container.
  *
  * Easy
- * Array
+ * array
  * Two Pointers
  */
 public class ContainerWithMostWater {

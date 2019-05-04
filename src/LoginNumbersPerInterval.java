@@ -25,7 +25,7 @@ import java.util.List;
  * at (5, 6) there is 1 user logged in.
  *
  * Medium
- * Array
+ * array
  * Sort
  */
 public class LoginNumbersPerInterval {

@@ -10,7 +10,7 @@
  * {2, 1, 5, 4, 3}, the largest number is 5 and 2nd largest number is 4.
  *
  * Medium
- * Array
+ * array
  */
 public class LargestAndSecondLargest {
     public int[] largestAndSecond(int[] array) {

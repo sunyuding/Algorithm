@@ -12,7 +12,7 @@
  * Output: the 3rd largest value of the corresponding 10 integers.
  *
  * Easy
- * Array
+ * array
  */
 public class NthLargestValue {
     public int getThirdLargest(int[] array) {

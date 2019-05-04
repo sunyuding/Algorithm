@@ -17,7 +17,7 @@ import java.util.*;
  * the top view is [4, 2, 1, 3, 7]
  *
  * Medium
- * Binary Tree
+ * Binary tree
  */
 public class TopViewOfBinaryTree {
     public List<Integer> topView(TreeNode root) {

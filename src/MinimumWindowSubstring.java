@@ -11,7 +11,7 @@
  *
  *
  * Medium
- * Array
+ * array
  * Two Pointers
  */
 public class MinimumWindowSubstring {

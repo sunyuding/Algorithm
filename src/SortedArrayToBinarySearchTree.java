@@ -7,7 +7,7 @@ import java.util.Arrays;
  * Example:
  *     Given ascending order array: [1, 3, 4, 5, 8, 11]
  *
- *     return Binary Search Tree is
+ *     return Binary Search tree is
  *
  *               4
  *
@@ -22,7 +22,7 @@ import java.util.Arrays;
  *
  *
  * Medium
- * Binary Search Tree
+ * Binary Search tree
  * Recursion
  */
 public class SortedArrayToBinarySearchTree {

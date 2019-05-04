@@ -48,7 +48,7 @@ import java.util.*;
  *
  * [4,9,5,3,0,1,8,2,7]
  * Medium
- * Binary Tree
+ * Binary tree
  * Hashtable
  */
 public class BinaryTreeVerticalOrderTraversal {

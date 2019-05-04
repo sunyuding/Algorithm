@@ -17,7 +17,7 @@
  * Output: 0
  * Note:
  *
- * This is a follow up problem to Find Minimum in Rotated Sorted Array.
+ * This is a follow up problem to Find Minimum in Rotated Sorted array.
  * Would allow duplicates affect the run-time complexity? How and why?
  */
 public class FindMinimumInRotatedSortedArrayII {

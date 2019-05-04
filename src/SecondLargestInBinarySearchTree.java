@@ -22,7 +22,7 @@
  * the second largest key is 3.
  *
  * Easy
- * Binary Search Tree
+ * Binary Search tree
  */
 public class SecondLargestInBinarySearchTree {
     public int secondLargest(TreeNode root) {

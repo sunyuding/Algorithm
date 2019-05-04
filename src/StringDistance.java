@@ -16,7 +16,7 @@
  *
  *
  * Easy
- * Array
+ * array
  * String
  */
 public class StringDistance {

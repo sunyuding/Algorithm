@@ -44,7 +44,7 @@ import java.util.Queue;
  *     4
  *
  * Medium
- * Binary Search Tree
+ * Binary Search tree
  */
 public class ReconstructBinarySearchTreeWithLevelOrderTraversal {
     public TreeNode reconstruct(int[] level) {

@@ -3,7 +3,7 @@ import java.util.Queue;
 
 /**
  * Given a binary tree,
- * find the largest subtree which is a Binary Search Tree (BST),
+ * find the largest subtree which is a Binary Search tree (BST),
  * where largest means subtree with largest number of nodes in it.
  *
  * Note:
@@ -23,8 +23,8 @@ import java.util.Queue;
  *
  * Medium
  * Recursion
- * Binary Tree
- * Binary Search Tree
+ * Binary tree
+ * Binary Search tree
  */
 public class LargestBSTSubtree {
     public int largestBSTSubtree(TreeNode root) {

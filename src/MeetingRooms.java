@@ -11,7 +11,7 @@ import java.util.PriorityQueue;
  *
  * Easy
  * Sort
- * Array
+ * array
  */
 public class MeetingRooms {
     public boolean canAttendMeetings(int[][] intervals) {

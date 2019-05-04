@@ -27,7 +27,7 @@
  * The lowest common ancestor of 1 and 3 is 2
  *
  * Easy
- * Binary Search Tree
+ * Binary Search tree
  */
 public class LowestCommonAncestorBinarySearchTreeI {
     public TreeNode lca(TreeNode root, int p, int q) {

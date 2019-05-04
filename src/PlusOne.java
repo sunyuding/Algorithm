@@ -9,7 +9,7 @@ import java.util.Stack;
  * Output: [2, 6, 0]
  *
  * Easy
- * Array
+ * array
  * Math
  */
 public class PlusOne {

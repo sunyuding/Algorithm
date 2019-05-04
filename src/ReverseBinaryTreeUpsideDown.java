@@ -44,7 +44,7 @@
 //        4
 //
 //        Medium
-//        Binary Tree
+//        Binary tree
 //        Iterative
 //        Linked List
 //        Recursion

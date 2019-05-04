@@ -19,7 +19,7 @@
  * [1,3,5,6], 0 → 0
  * Medium
  * Binary Search
- * Array
+ * array
  */
 public class SearchInsertPosition {
     public int searchInsert(int[] input, int target) {

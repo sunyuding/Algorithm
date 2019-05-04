@@ -10,7 +10,7 @@
 //        There are no duplicate keys in the binary search tree
 //
 //        Medium
-//        Binary Tree
+//        Binary tree
 //        Iterative
 //        Recursion
 
