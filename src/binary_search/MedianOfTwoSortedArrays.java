@@ -2,7 +2,7 @@ package binary_search;
 
 public class MedianOfTwoSortedArrays {
     /**
-     * Time: O(log(min of (m, n)))\
+     * Time: O(log(min of (m, n)))
      * Space: O(1)
      * @param nums1
      * @param nums2
@@ -12,8 +12,7 @@ public class MedianOfTwoSortedArrays {
         int m = nums1.length;
         int n = nums2.length;
         if (m > n) { // to ensure m<=n
-            int[] temp = nums1; nums1 = nums2; nums2 = temp;
-            int tmp = m; m = n; n = tmp;
+            return findMedianSortedArrays(nums2, nums1);
         }
         // search i from 0 to m
         // find a position where nums1[i - 1] <= nums2[j] && nums1[i] >= nums2[j - 1]
