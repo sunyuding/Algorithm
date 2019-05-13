@@ -16,7 +16,7 @@ import java.util.Arrays;
 //        Given n = 3,
 //        assume that player 1 is "X" and player 2 is "O" in the board.
 //
-//        TicTacToe toe = new TicTacToe(3);
+//        game.TicTacToe toe = new game.TicTacToe(3);
 //
 //        toe.move(0, 0, 1); -> Returns 0 (no one wins)
 //        |X| | |
@@ -128,7 +128,7 @@ public class TicTacToe {
     }
 }
 /**
- * Your TicTacToe object will be instantiated and called as such:
- * TicTacToe obj = new TicTacToe(n);
+ * Your game.TicTacToe object will be instantiated and called as such:
+ * game.TicTacToe obj = new game.TicTacToe(n);
  * int param_1 = obj.move(row,col,player);
  */
