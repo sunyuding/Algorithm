@@ -12,7 +12,7 @@ package tree;
 //          /   \
 //         2     3
 //        /
-//        4
+//       4
 //
 //        Output: "1(2(4))(3)"
 //
@@ -35,6 +35,24 @@ package tree;
 
 public class ConstructStringFromBinaryTree {
     public String tree2str(TreeNode t) {
-        return null;
+        if (t == null) return "";
+        StringBuilder sb = new StringBuilder();
+        sb.append(t.val);
+        String left = tree2str(t.left);
+        String right = tree2str(t.right);
+        //case1: left  , right is null
+        //     don't append
+        //case2: left has child, right not
+        //     (left)
+        //case3: right has child, left not
+        // (left) (right)
+        //case4: right has, left has
+        // (left)(right)
+        if (right.length() != 0) {
+            sb.append("(").append(left).append(")").append("(").append(right).append(")");
+        } else if (left.length() != 0) {
+            sb.append("(").append(left).append(")");
+        }
+        return sb.toString();
     }
 }
