@@ -33,6 +33,9 @@ package tree;
 //        except we can't omit the first parenthesis pair to break the one-to-one
 // mapping relationship between the input and the output.
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class ConstructStringFromBinaryTree {
     public String tree2str(TreeNode t) {
         if (t == null) return "";
@@ -54,5 +57,7 @@ public class ConstructStringFromBinaryTree {
             sb.append("(").append(left).append(")");
         }
         return sb.toString();
+
+
     }
 }
