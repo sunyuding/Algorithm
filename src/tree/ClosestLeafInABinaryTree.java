@@ -1,7 +1,6 @@
 package tree;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 // Given a binary tree where every node has a unique value,
 // and a target key k,
@@ -56,58 +55,88 @@ import java.util.Map;
 //        Every node has a unique node.val in range [1, 1000].
 //        There exists some node in the given binary tree for which node.val == k.
 public class ClosestLeafInABinaryTree {
-    Map<TreeNode, TreeNode> childToParent = new HashMap<>();
-
+    /**
+     * Time: O(n)
+     * Space: O(n)
+     * @param root
+     * @param k
+     * @return
+     */
     public int findClosestLeaf(TreeNode root, int k) {
-        childToParent.put(root, null);
-        TreeNode node = traverse(root, k);
-        int min = closestLeafChild(node);
-        int len = 0;
-        while(node != null) {
-            min = Math.min(min, len + closestLeafChild(node));
-            node = childToParent.get(node);
-            len++;
+        Map<TreeNode, Set<TreeNode>> graph = new HashMap<>();
+        convertGraph(root, graph);
+
+        TreeNode kNode = getTarget(root, k);
+
+        Queue<TreeNode> q = new LinkedList<>();
+        Set<TreeNode> isVisited = new HashSet<>();
+        isVisited.add(kNode);
+        q.offer(kNode);
+
+        while(!q.isEmpty()) {
+            TreeNode cur = q.poll();
+            if (cur != null) {
+                //base case: leaf node
+                if (cur.left == null && cur.right == null) {
+                    return cur.val;
+                }
+                for (TreeNode node : graph.get(cur)) {
+                    if (!isVisited.contains(node)) {
+                        isVisited.add(node);
+                        q.offer(node);
+                    }
+                }
+            }
         }
-        return min;
+        return -1;
     }
 
-    private TreeNode traverse(TreeNode node, int k) {
+    private TreeNode getTarget(TreeNode root, int k) {
+        if (root == null) return null;
+        if (root.val == k) return root;
+        TreeNode left = getTarget(root.left, k);
+        TreeNode right = getTarget(root.right, k);
+        return left != null? left : right;
+    }
+
+    private void convertGraph(TreeNode node, Map<TreeNode, Set<TreeNode>> graph) {
         if (node == null) {
-            return null;
+            return;
         }
-        if (node.val == k) {
-            return node;
+        if (!graph.containsKey(node)) {
+            graph.put(node, new HashSet<>());
         }
         if (node.left != null) {
-            childToParent.put(node.left, node);
-            TreeNode left = traverse(node.left, k);
-            if (left != null) {
-                return left;
+            graph.get(node).add(node.left);
+            if (!graph.containsKey(node.left)) {
+                graph.put(node.left, new HashSet<>());
             }
+            graph.get(node.left).add(node);
+            convertGraph(node.left, graph);
         }
         if (node.right != null) {
-            childToParent.put(node.right, node);
-            TreeNode right = traverse(node.right, k);
-            if (right != null) {
-                return right;
+            graph.get(node).add(node.right);
+            if (!graph.containsKey(node.right)) {
+                graph.put(node.right, new HashSet<>());
             }
+            graph.get(node.right).add(node);
+            convertGraph(node.right, graph);
         }
-        return null;
     }
 
-    private int closestLeafChild(TreeNode node) {
-        if (node.left == null && node.right == null) {
-            return 1;
-        }
-        int min = Integer.MAX_VALUE;
-        if (node.left != null) {
-            int left = closestLeafChild(node.left);
-            min = Math.min(min, left + 1);
-        }
-        if (node.right != null) {
-            int right = closestLeafChild(node.right);
-            min = Math.min(min, right + 1);
-        }
-        return min;
+    public static void main(String[] args) {
+        TreeNode n1 = new TreeNode(1);
+        TreeNode n2 = new TreeNode(2);
+        TreeNode n3 = new TreeNode(3);
+        TreeNode n4 = new TreeNode(4);
+        TreeNode n5 = new TreeNode(5);
+        TreeNode n6 = new TreeNode(6);
+        n1.left = n2;
+        n1.right = n3;
+        n2.left = n4;
+        n4.left = n5;
+        n5.left = n6;
+        ClosestLeafInABinaryTree ins = new ClosestLeafInABinaryTree();
+        ins.findClosestLeaf(n1, 2);
     }
 }

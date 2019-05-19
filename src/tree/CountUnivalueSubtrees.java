@@ -52,7 +52,7 @@ package tree;
 //    }
 //}
 
-class Solution {
+class CountUnivalueSubtrees {
     private int count;
 
     public int countUnivalSubtrees(TreeNode root) {
