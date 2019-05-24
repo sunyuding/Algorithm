@@ -15,6 +15,27 @@ package dynamic_programming;
 //        Output: "bb"
 public class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
-        return "";
+        String res = "";
+        if (s == null || s.length() == 0) return res;
+        int n = s.length();
+        boolean[][] dp = new boolean[n][n];
+
+        for (int i = n - 1; i >= 0; i--) {
+            // for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                dp[i][j] = s.charAt(i) == s.charAt(j) && (j - i < 3 || dp[i + 1][j - 1]);
+
+                if (dp[i][j] && (j - i + 1 > res.length())) {
+                    res = s.substring(i, j + 1);
+                }
+            }
+        }
+
+        return res;
+    }
+
+    public static void main(String[] args) {
+        LongestPalindromicSubstring ins = new LongestPalindromicSubstring();
+        ins.longestPalindrome("AAAA");
     }
 }
