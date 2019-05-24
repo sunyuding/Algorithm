@@ -15,7 +15,6 @@ package dynamic_programming;
 //        Output: "bb"
 public class LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
-
         return "";
     }
 }
