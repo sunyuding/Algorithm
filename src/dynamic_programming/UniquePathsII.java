@@ -69,6 +69,7 @@ public class UniquePathsII {
     /**
      * Time: O(m * n)
      * Space: O(n)
+     *
      * @param obstacleGrid
      * @return
      */
@@ -90,23 +91,25 @@ public class UniquePathsII {
                         if (obstacleGrid[i][j] == 0) {
                             dp[j] = dp[j - 1];
                         }
-                } else if (j == 0) {
-                // left bound
-                    if (i > 0) {
-                       if (obstacleGrid[i][j] == 0) {
-                           dp[j] = dp[j];
+                    } else if (j == 0) {
+                        // left bound
+                        if (i > 0) {
+                            if (obstacleGrid[i][j] == 0) {
+                                dp[j] = dp[j];
+                            } else {
+                                dp[j] = 0;
+                            }
+                        }
+                    } else if (j > 0) {
+                        if (obstacleGrid[i][j] == 0) {
+                            dp[j] += dp[j - 1];
                         } else {
                             dp[j] = 0;
-                       }
-                    }
-                } else if (j > 0) {
-                    if (obstacleGrid[i][j] == 0) {
-                        dp[j] += dp[j - 1];
-                    } else {
-                        dp[j] = 0;
+                        }
                     }
                 }
             }
+
         }
         return dp[n - 1];
     }
