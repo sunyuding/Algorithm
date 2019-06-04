@@ -79,9 +79,6 @@ public class WallsAndGates {
         if (row < 0 || col < 0 || row >= rows || col >= cols) {
             return false;
         }
-        if (rooms[row][col] < 0) {
-            return false;
-        }
-        return true;
+        return rooms[row][col] >= 0;
     }
 }
