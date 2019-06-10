@@ -48,6 +48,46 @@ import java.util.Queue;
  * Time: O(|V| + |E|)
  * Space: O(|V|)
  */
+//public class CourseScheduleII {
+//    public int[] findOrder(int numCourses, int[][] prerequisites) {
+//        int[][] graph = new int[numCourses][numCourses];
+//        int[] indegree = new int[numCourses];
+//        int[] result = new int[numCourses];
+//        // construct the graph
+//        for(int i = 0; i < prerequisites.length; i++) {
+//            int cur = prerequisites[i][0];
+//            int pre = prerequisites[i][1];
+//            if (graph[pre][cur] == 0) {
+//                indegree[cur]++; // new edge
+//            }
+//            graph[pre][cur] = 1;
+//        }
+//        // BFS
+//        Queue<Integer> q = new LinkedList<>();
+//        for (int i = 0; i < numCourses; i++) {
+//            if (indegree[i] == 0) {
+//                q.offer(i);
+//            }
+//        }
+//        int index = 0;
+//        int count = 0;
+//        while(!q.isEmpty()) {
+//            int cur = q.poll();
+//            count++;
+//            result[index++] = cur;
+//            for (int i = 0; i < numCourses; i++) {
+//                if (graph[cur][i] == 1) {
+//                    indegree[i]--;
+//                    if (indegree[i] == 0) {
+//                        q.offer(i);
+//                    }
+//                }
+//            }
+//        }
+//        return count == numCourses? result : new int[0];
+//    }
+//}
+
 public class CourseScheduleII {
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int[][] graph = new int[numCourses][numCourses];
