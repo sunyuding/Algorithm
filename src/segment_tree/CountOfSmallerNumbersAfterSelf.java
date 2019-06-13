@@ -1,6 +1,6 @@
 package segment_tree;
 
-import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 //You are given an integer array nums and you have to return a new counts array.
@@ -19,7 +19,8 @@ import java.util.List;
 
 /**
  * Segment Tree
- *
+ * Time: O(nlog(n))
+ * Space: O()
  */
 //public class CountOfSmallerNumbersAfterSelf {
 //
@@ -48,6 +49,7 @@ import java.util.List;
 //
 //    public List<Integer> countSmaller(int[] nums) {
 //        Integer[] count = new Integer[nums.length];
+////        List<Integer> res = new ArrayList<>(nums.length);
 //
 //        int[] converts = nums.clone();
 //        Arrays.sort(converts);
@@ -63,10 +65,11 @@ import java.util.List;
 //
 //        for (int i = nums.length - 1; i >= 0; i--) {
 //            count[i] = getCount(root, nums2[i]);
-//            update(root, nums2[i]);
+////            res.add(i, getCount(root, nums2[i]));
 //        }
 //
 //        return Arrays.asList(count);
+////        return res;
 //    }
 //
 //    private void update(Node root, int pos) {
@@ -99,19 +102,80 @@ import java.util.List;
 
 public class CountOfSmallerNumbersAfterSelf {
 
+    static class SegmentTreeNode {
+        int min, max;	// 记录范围 interval [min, max]
+        int count;	//落在这个区间的个数
+        SegmentTreeNode left, right;
 
-//    Input: [5,2,6,1]
-//    Output: [2,1,1,0]
-
-    public List<Integer> countSmaller(int[] nums) {
-        Integer[] count = new Integer[nums.length];
-
-        for (int i = nums.length - 1; i >= 0; i--) {
-
+        public SegmentTreeNode(int min, int max) {
+            this.min = min;
+            this.max = max;
+            this.count = 0;
         }
-
-        return Arrays.asList(count);
     }
 
+    public List<Integer> countSmaller(int[] nums) {
+        List<Integer> list = new LinkedList<>();
+        // get the range
+        int min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
+        for(int num : nums) {
+            min = Math.min(min, num);
+            max = Math.max(max, num);
+        }
 
+        SegmentTreeNode root = new SegmentTreeNode(min, max);
+        // traverse from right to left
+        for(int i = nums.length - 1; i >= 0; i--) {
+            list.add(0, query(root, nums[i]));
+            update(root, nums[i]);
+        }
+        return list;
+    }
+
+    private int query(SegmentTreeNode root, int num) {
+        if(root == null) {
+            return 0;
+        }
+        //我们只需要查找比当前数i小的所有数，count正好保存这个信息
+        if(num > root.max) {
+            return root.count;
+        }
+        //开始log(n)查找
+        int mid = root.min + (root.max - root.min) / 2;
+        if(num <= mid) {
+            // left
+            return query(root.left, num);
+        } else {
+            //如果当前数>=mid,则需要找左右两个子树
+            return query(root.left, num) + query(root.right, num);
+        }
+    }
+
+    private void update(SegmentTreeNode root, int num) {
+        //如果不在这个有效范围，直接退出, min & max 是提前设置好的
+        if(root == null || num < root.min || num > root.max) {
+            return;
+        }
+        //小于等于root.max的count++
+        root.count++;
+        //左右值相等，区间内只有一个值，到达叶子节点，直接退出
+        if(root.min == root.max) {
+            root.count = 1;
+            return;
+        }
+        int mid = root.min + (root.max - root.min) / 2;
+        if(num <= mid) {
+            if(root.left == null) {
+                root.left = new SegmentTreeNode(root.min, mid);
+            }
+            //转移到左子树进行更新
+            update(root.left, num);
+        } else {
+            if(root.right == null) {
+                root.right = new SegmentTreeNode(mid + 1, root.max);
+            }
+            //转移到右子树进行更新
+            update(root.right, num);
+        }
+    }
 }
