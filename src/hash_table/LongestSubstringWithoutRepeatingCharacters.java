@@ -7,7 +7,8 @@ import java.util.Set;
 
 /**
  * Time: O(n)
- * Space: O(n)
+ * Space: O(min of (m, n))
+ * The size of the Set is upper bounded by the size of the string nn and the size of the charset/alphabet mm.
  */
 public class LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
