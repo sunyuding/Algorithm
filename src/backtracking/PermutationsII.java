@@ -41,6 +41,11 @@ public class PermutationsII {
                 swap(nums, index, i);
             }
         }
+        Map<Map<Character, Integer>, List<String>> patterns = new HashMap<>();
+        for (List<String> list : patterns.values()) {
+            result.add(list);
+        }
+
     }
 
     private List<Integer> arrayToList(int[] nums) {
