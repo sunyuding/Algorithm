@@ -25,21 +25,25 @@ package dynamic_programming;
 //        Example 1:
 //                0  1  2  3  4  5
 //        Input: [10,13,12,14,15]
-//
+//                 1
 //        Output: 2
 //        Explanation:
 //        From starting index i = 0,
 // we can jump to i = 2 (since A[2] is the smallest among A[1], A[2], A[3], A[4] that is greater or equal to A[0]),
 // then we can't jump any more.
+
 //        From starting index i = 1
 // and i = 2, we can jump to i = 3, then we can't jump any more.
+
 //        From starting index i = 3,
 // we can jump to i = 4, so we've reached the end.
+
 //        From starting index i = 4,
 // we've reached the end already.
+
 //        In total,
 // there are 2 different starting indexes (i = 3, i = 4) where we can reach the end with some number of jumps.
-//
+
 //        Example 2:
 //
 //        Input: [2,3,1,1,4]
@@ -67,9 +71,11 @@ package dynamic_programming;
 //        From starting index i = 4, we are already at the end.
 //        In total,
 // there are 3 different starting indexes (i = 1, i = 3, i = 4) where we can reach the end with some number of jumps.
+
 //        Example 3:
-//
+//                0 1 2 3 4
 //        Input: [5,1,3,4,2]
+//
 //        Output: 3
 //        Explanation:
 //        We can reach the end from starting indexes 1, 2, and 4.
@@ -81,7 +87,51 @@ package dynamic_programming;
 //        0 <= A[i] < 100000
 public class OddEvenJump {
     public int oddEvenJumps(int[] A) {
-
-        return 0;
+        if (A == null || A.length == 0) {
+            return 0;
+        }
+        int count = 0;
+        for (int i = 0; i < A.length; i++) {
+            if (reachEnd(A, i, 1)) {
+                count++;
+            }
+        }
+        return count;
+    }
+    //            0  1  2  3  4  5
+//        Input: [10,13,12,14,15]
+    //
+    private boolean reachEnd(int[] A, int i, int times) {
+        if (i == A.length - 1) {
+            return true;
+        }
+        int next = -1;
+        for (int j = i + 1; j < A.length; j++) {
+            if (times % 2 == 0) {
+//                During even numbered jumps (ie. jumps 2, 4, 6, ...),
+// you jump to the index j such that A[i] >= A[j] and A[j] is the largest possible value.
+// If there are multiple such indexes j, you can only jump to the smallest such index j.
+                if (A[j] >= A[i]) {
+                    if (next == -1) {
+                        next = j;
+                    } else if (A[j] > A[next]) {
+                        next = j;
+                    }
+                }
+            } else {
+                if (A[i] <= A[j]) {
+                    if (next == -1) {
+                        next = j;
+                    } else if (A[j] < A[next]) {
+                        next = j;
+                    }
+                }
+            }
+        }
+        if (next == -1) {
+            return false;
+        } else {
+            return reachEnd(A, next, times + 1);
+        }
     }
 }
