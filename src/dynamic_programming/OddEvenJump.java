@@ -85,53 +85,153 @@ package dynamic_programming;
 //
 //        1 <= A.length <= 20000
 //        0 <= A[i] < 100000
+
+import java.util.TreeMap;
+
+/**
+ * Brute Force
+ * Time: O(n ^ 3)
+ */
+//public class OddEvenJump {
+//    //
+//    public int oddEvenJumps(int[] A) {
+//        if (A == null || A.length == 0) {
+//            return 0;
+//        }
+//        int count = 0;
+//        for (int i = 0; i < A.length; i++) { // O(n)
+//            if (reachEnd(A, i, 1)) {
+//                count++;
+//            }
+//        }
+//        return count;
+//    }
+//    //            0  1  2  3  4  5
+////        Input: [10,13,12,14,15]
+//    //
+//    private boolean reachEnd(int[] A, int i, int times) {
+//        if (i == A.length - 1) {
+//            return true;
+//        }
+//        int next = -1;
+//        for (int j = i + 1; j < A.length; j++) {
+//            if (times % 2 == 0) {
+////                During even numbered jumps (ie. jumps 2, 4, 6, ...),
+//// you jump to the index j such that A[i] >= A[j] and A[j] is the largest possible value.
+//// If there are multiple such indexes j, you can only jump to the smallest such index j.
+//                if (A[i] >= A[j]) {
+//                    if (next == -1) {
+//                        next = j;
+//                    } else if (A[j] > A[next]) {
+//                        next = j;
+//                    }
+//                }
+//            } else {
+//                if (A[i] <= A[j]) {
+//                    if (next == -1) {
+//                        next = j;
+//                    } else if (A[j] < A[next]) {
+//                        next = j;
+//                    }
+//                }
+//            }
+//        }
+//        if (next == -1) {
+//            return false;
+//        } else {
+//            return reachEnd(A, next, times + 1);
+//        }
+//    }
+//
+//    public static void main(String[] args) {
+//        OddEvenJump ins = new OddEvenJump();
+//        ins.oddEvenJumps(new int[] {10,13,12,14,15});
+//    }
+//}
+
+/**
+ * Intuition
+ *
+ * As in Approach 1,
+ * the problem reduces to solving this question:
+ * for some index i during an odd numbered jump,
+ * what index do we jump to (if any)?
+ *
+ * Algorithm
+ *
+ * We can use a TreeMap,
+ * which is an excellent structure for maintaining sorted data.
+ * Our map vals will map values v = A[i] to indices i.
+ *
+ * Iterating from i = N-2 to i = 0,
+ * we have some value v = A[i] and we want to know what the next largest or next smallest value is.
+ *
+ * The TreeMap.
+ * lowerKey and TreeMap.higherKey functions do this for us.
+ *
+ * With this in mind,
+ * the rest of the solution is straightforward:
+ * we use dynamic programming to maintain odd[i] and even[i]:
+ * whether the state of being at index i on an odd or even numbered jump is possible to reach.
+ */
 public class OddEvenJump {
     public int oddEvenJumps(int[] A) {
-        if (A == null || A.length == 0) {
+        if (A == null) {
             return 0;
         }
-        int count = 0;
-        for (int i = 0; i < A.length; i++) {
-            if (reachEnd(A, i, 1)) {
-                count++;
-            }
-        }
-        return count;
-    }
-    //            0  1  2  3  4  5
-//        Input: [10,13,12,14,15]
-    //
-    private boolean reachEnd(int[] A, int i, int times) {
-        if (i == A.length - 1) {
-            return true;
-        }
-        int next = -1;
-        for (int j = i + 1; j < A.length; j++) {
-            if (times % 2 == 0) {
-//                During even numbered jumps (ie. jumps 2, 4, 6, ...),
+        int N = A.length;
+        if (N <= 1) return N;
+
+        // definition:
+        // odd[i] represents starting from index i for an odd number jump, if it can reach the end(index N - 1).
+        boolean[] odd = new boolean[N];
+        // even[i] represents starting from index i for an even number jump, if it can reach the end(index N - 1).
+        boolean[] even = new boolean[N];
+
+        // base case:
+        odd[N-1] = even[N-1] = true;
+
+        TreeMap<Integer, Integer> vals = new TreeMap();
+        vals.put(A[N-1], N-1);
+        for (int i = N-2; i >= 0; --i) { //O(n)
+            int v = A[i];
+            if (vals.containsKey(v)) {
+                odd[i] = even[vals.get(v)];
+                even[i] = odd[vals.get(v)];
+            } else {
+                //O(logn)
+                Integer lower = vals.lowerKey(v); //Returns the greatest key strictly less than the given key, or null if there is no such key.
+                Integer higher = vals.higherKey(v); //Returns the least key strictly greater than the given key, or null if there is no such key.
+
+// During odd numbered jumps (ie. jumps 1, 3, 5, ...),
+// you jump to the index j such that A[i] <= A[j] and A[j] is the smallest possible value.
+// If there are multiple such indexes j, you can only jump to the smallest such index j.
+                if (lower != null) {
+                    even[i] = odd[vals.get(lower)];
+                }
+
+// During even numbered jumps (ie. jumps 2, 4, 6, ...),
 // you jump to the index j such that A[i] >= A[j] and A[j] is the largest possible value.
 // If there are multiple such indexes j, you can only jump to the smallest such index j.
-                if (A[j] >= A[i]) {
-                    if (next == -1) {
-                        next = j;
-                    } else if (A[j] > A[next]) {
-                        next = j;
-                    }
-                }
-            } else {
-                if (A[i] <= A[j]) {
-                    if (next == -1) {
-                        next = j;
-                    } else if (A[j] < A[next]) {
-                        next = j;
-                    }
+                if (higher != null) {
+                    odd[i] = even[vals.get(higher)];
                 }
             }
+            vals.put(v, i);
         }
-        if (next == -1) {
-            return false;
-        } else {
-            return reachEnd(A, next, times + 1);
+        // result:
+        // 0 is odd number jump
+        // for each index,
+        // check if it can jump to the end with odd number jump
+        int ans = 0;
+        for (boolean b: odd) {
+            if (b) ans++;
         }
+        return ans;
+    }
+
+    public static void main(String[] args) {
+        OddEvenJump ins = new OddEvenJump();
+        ins.oddEvenJumps(new int[] {2,3,1,1,4});
     }
 }

@@ -43,7 +43,7 @@ public class PermutationsII {
         }
         Map<Map<Character, Integer>, List<String>> patterns = new HashMap<>();
         for (List<String> list : patterns.values()) {
-            result.add(list);
+//            result.add(list);
         }
 
     }
