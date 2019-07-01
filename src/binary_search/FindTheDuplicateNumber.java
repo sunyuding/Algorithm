@@ -27,7 +27,7 @@ public class FindTheDuplicateNumber {
         int start = 1;
         int end = nums.length - 1;
         // find the smallest x, where f(x) > x
-        // f(x) # of element < x in the nums
+        // f(x) # of element <= x in the nums
         while(start < end) {
             int mid = start + (end - start) / 2;
             int count = 0;
