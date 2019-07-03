@@ -1,6 +1,5 @@
 package binary_search;
 
-
 /**
  * Given an array which consists of non-negative integers and an integer m,
  * you can split the array into m non-empty continuous subarrays.
