@@ -5,10 +5,8 @@ public class FindPeakElement {
         int left = 0;
         int right = nums.length - 1;
         while(left < right) {
-            // 1 2 3 4
-            // 2
             int mid = left + (right - left) / 2;
-            if (nums[mid] < nums[mid + 1]) {
+            if (nums[mid] < nums[mid + 1]) { // mid + 1 guarantee it is not outofbound
                 // mid may be left, but must not be right
                 left = mid + 1;
             } else {
