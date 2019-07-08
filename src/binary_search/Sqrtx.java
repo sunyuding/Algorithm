@@ -6,7 +6,7 @@ public class Sqrtx {
         if (x == 1) return 1;
         int l = 1;
         int r = x;
-        while(l < r - 1) { //TODO
+        while(l < r - 1) { //
             int mid = l + (r - l) / 2;
             if (mid == x / mid) {
                 return mid;
