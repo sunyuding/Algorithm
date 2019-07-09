@@ -42,6 +42,6 @@ public class MissingElementInSortedArray {
 
             }
         }
-
+        return 0;
     }
 }
