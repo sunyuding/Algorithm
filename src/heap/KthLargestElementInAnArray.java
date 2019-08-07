@@ -25,7 +25,7 @@ public class KthLargestElementInAnArray {
      * @return
      */
     public int findKthLargest(int[] nums, int k) {
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>(((o1, o2) -> o1 - o2));
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>(((o1, o2) -> Integer.compare(o1, o2)));
         for (int num : nums) {
             minHeap.add(num);
             while (minHeap.size() > k) {

@@ -13,7 +13,7 @@ public class KClosestPointsToOrigin {
      * @return
      */
     public int[][] kClosest(int[][] points, int K) {
-        PriorityQueue<int[]> distanceMaxHeap = new PriorityQueue<>(K, ((o1, o2) -> (o2[0] * o2[0] + o2[1] * o2[1]) - (o1[0] * o1[0] + o1[1] * o1[1])));
+        PriorityQueue<int[]> distanceMaxHeap = new PriorityQueue<>(K, ((o1, o2) -> Integer.compare((o2[0] * o2[0] + o2[1] * o2[1]), (o1[0] * o1[0] + o1[1] * o1[1]))));
         for (int[] point : points) {
             distanceMaxHeap.offer(point);
             while(distanceMaxHeap.size() > K) {
